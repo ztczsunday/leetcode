@@ -9,15 +9,7 @@ import java.util.Set;
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
         List<Integer> result=new ArrayList<>();
-        return result;
-    }
 
-    private int[] initFre(int[] nums){
-        Set<Integer> set=new HashSet<>();
-        for (int a:nums
-             ) {
-            set.add(a);
-        }
-        return nums;
+        return result;
     }
 }

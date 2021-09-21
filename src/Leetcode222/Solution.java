@@ -35,7 +35,6 @@ public class Solution {
         System.out.println(count);
     }
 
-    //todo
     public static int countNodes(TreeNode root) {
         int level = 1;
         int maxlevel = 1;

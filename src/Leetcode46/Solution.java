@@ -3,6 +3,7 @@ package Leetcode46;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
@@ -30,4 +31,6 @@ class Solution {
             Collections.swap(output, i, first);
         }
     }
+
+
 }
